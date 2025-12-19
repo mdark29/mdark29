@@ -8,12 +8,12 @@
 
 ---
 
-### 📖 Descripción
+###  Descripción
 Esta herramienta ha sido diseñada para optimizar los procesos de **Pentesting**, permitiendo identificar debilidades en sistemas de forma estructurada y eficiente.
 
 ---
 
-### 🚀 Guía de Instalación y Uso
+###  Guía de Instalación y Uso
 Sigue estos pasos en orden descendente para configurar tu entorno:
 
 **1. Clonar el proyecto**
@@ -38,14 +38,14 @@ Inicia el script principal para comenzar el análisis:
 Bash
 
 python mdark29.py
-⚙️ Requisitos del Sistema
+Requisitos del Sistema
 Lenguaje: Python 3.10 o superior.
 
 Sistemas: Compatible con Linux (Kali, Parrot, Ubuntu) y Windows.
 
 Archivos: Requiere el archivo requeriments.txt en la raíz.
 
-⚖️ Aviso de Uso Ético
+Aviso de Uso Ético
 [!IMPORTANT] El uso de esta herramienta en objetivos sin autorización previa es ilegal.
 El desarrollador no se hace responsable por el mal uso de este software.
 Utilízalo siempre en entornos controlados y autorizados.
@@ -53,6 +53,6 @@ Utilízalo siempre en entornos controlados y autorizados.
 
 
 
-🔒 Seguridad Informática | 2025 
+Seguridad Informática | 2025 
 
 
