@@ -2,7 +2,7 @@
  
 
 ```1er paso crear entorno virtual  
-python3 -m venv venv  ```
+python3 -m venv venv```
 
 2do paso activar el entorno  
 En Linux/macOS  
