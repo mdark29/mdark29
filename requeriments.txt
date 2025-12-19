@@ -1,0 +1,27 @@
+# Core dependencies
+requests==2.31.0
+beautifulsoup4==4.12.2
+lxml==4.9.3
+colorama==0.4.6
+tqdm==4.66.1
+
+# Security analysis
+paramiko==3.2.0
+dnspython==2.4.2
+cryptography==41.0.7
+pyOpenSSL==23.2.0
+
+# Network tools
+scapy==2.5.0
+netifaces==0.11.0
+
+# Utilities
+python-dotenv==1.0.0
+pyfiglet==0.8.post1
+tabulate==0.9.0
+
+# Optional (para funcionalidades específicas)
+selenium==4.15.2  # Para pruebas de navegador
+pymongo==4.5.0  # Si hay pruebas de MongoDB
+psycopg2-binary==2.9.9  # Para PostgreSQL
+mysql-connector-python==8.1.0  # Para MySQL
