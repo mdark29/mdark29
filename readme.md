@@ -1,4 +1,3 @@
-Markdown
 
 # 🛡️ Herramienta Avanzada de Pentesting
 > Herramienta profesional para la auditoría de seguridad y análisis de vulnerabilidades.
@@ -52,10 +51,3 @@ Archivos: Requiere el archivo requeriments.txt en la raíz.
 🔒 Seguridad Informática | 2025 </p>
 
 
-### ¿Qué mejoras incluye esta organización?
-
-  * **Estructura Vertical:** Cada paso de la instalación tiene su propio título y su propio cuadro de código, evitando que se vea amontonado.
-  * **Jerarquía Clara:** Los títulos son más grandes y los separadores (`---`) ayudan a distinguir dónde termina una sección y empieza otra.
-  * **Legibilidad:** Al separar los comandos, el usuario puede seguir el proceso paso a paso sin confundirse.
-
-¿Te gustaría que añada una sección de "Características" con viñetas para explicar qué hace exactamente tu script de Python?
