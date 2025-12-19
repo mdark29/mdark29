@@ -1,0 +1,30 @@
+
+
+Automatizando Metodología de Pentesting
+
+Durante mucho tiempo, mi proceso de aprendizaje se basó en acumular documentación detallada, apuntes en archivos .txt y bases de conocimiento que guardaba en Obsidian. Sin embargo, me di cuenta de que esta información estática tiende a olvidarse si no se practica constantemente.
+Para evitar la pérdida de este activo que considero tan valioso, he decidido dar un paso adelante: automatizar mis flujos de trabajo. Aprovechando herramientas y técnicas respaldadas para acelerar el desarrollo de código y poner todo en practica con un poco mas de frecuencia, estoy transformando mis técnicas manuales en scripts modulares que facilitan las auditorias éticas.
+
+Hoy comparto un poco de mis apuntes en esta script: M-dark29, una suite diseñada para agilizar las fases de reconocimiento y explotación web.
+
+🛡️ M-dark29: Suite Integrada para Pentesting Web
+M-dark29 es una herramienta de automatización que centraliza las capacidades de un auditor en una sola interfaz. No busca reemplazar el criterio humano, sino eliminar la carga de las tareas repetitivas y manuales.
+
+La suite está organizada en módulos que cubren el ciclo de vida completo de una intrusión ética:
+Reconocimiento y OSINT: Automatiza WHOIS, búsqueda de subdominios y Google Dorks específicos para encontrar fugas de información.
+Análisis de Vulnerabilidades: Escaneo de headers, detección de archivos sensibles expuestos (.env, .git) y pruebas avanzadas de LFI.
+Inyección y Explotación: Motores dedicados para SQL Injection, SSRF y XXE.
+Ataques Intrusivos: Pruebas de denegación de servicio (Slowloris) y fuerza bruta con bypass de tokens CSRF.
+Post-Explotación: Generador de Reverse Shells en PHP, ASP, JSP y Python para validar el acceso obtenido.
+Reportes: Generación automática de un resumen ejecutivo con los hallazgos principales.
+Requisitos e Instalación
+Para integrar esta herramienta en tu laboratorio de pruebas, sigue estos pasos:
+
+⚠️ Nota de Ética y Responsabilidad
+Este proyecto es un aporte con fines estrictamente educativos y profesionales. La automatización aumenta la velocidad, pero también la responsabilidad. Utiliza este script únicamente en entornos controlados o bajo autorización explícita del propietario del sistema.
+
+El conocimiento es libre, la intrusión sin permiso es un delito.
+
+https://lnkd.in/ewnS7hFS
+https://lnkd.in/eQCEkR4e
+hashtag#pentesting hashtag#hackingetico hashtag#seguridad hashtag#informatica
