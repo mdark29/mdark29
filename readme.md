@@ -1,24 +1,43 @@
 ![mdark](mdark1.png)
 
-Automatizando Metodología de Pentesting
+python3 -m venv venv
+source venv/bin/activate  # Linux/macOS
+# o
+venv\Scripts\activate  # Windows
 
-Durante mucho tiempo, mi proceso de aprendizaje se basó en acumular documentación detallada, apuntes en archivos .txt y bases de conocimiento que guardaba en Obsidian. Sin embargo, me di cuenta de que esta información estática tiende a olvidarse si no se practica constantemente.
-Para evitar la pérdida de este activo que considero tan valioso, he decidido dar un paso adelante: automatizar mis flujos de trabajo. Aprovechando herramientas y técnicas respaldadas para acelerar el desarrollo de código y poner todo en practica con un poco mas de frecuencia, estoy transformando mis técnicas manuales en scripts modulares que facilitan las auditorias éticas.
+pip install --upgrade pip
+pip install -r requirements.txt
 
-Hoy comparto un poco de mis apuntes en esta script: M-dark29, una suite diseñada para agilizar las fases de reconocimiento y explotación web.
 
-🛡️ M-dark29: Suite Integrada para Pentesting Web
-M-dark29 es una herramienta de automatización que centraliza las capacidades de un auditor en una sola interfaz. No busca reemplazar el criterio humano, sino eliminar la carga de las tareas repetitivas y manuales.
+# Configuración general
+DEBUG=False
+LOG_LEVEL=INFO
 
-La suite está organizada en módulos que cubren el ciclo de vida completo de una intrusión ética:
-Reconocimiento y OSINT: Automatiza WHOIS, búsqueda de subdominios y Google Dorks específicos para encontrar fugas de información.
-Análisis de Vulnerabilidades: Escaneo de headers, detección de archivos sensibles expuestos (.env, .git) y pruebas avanzadas de LFI.
-Inyección y Explotación: Motores dedicados para SQL Injection, SSRF y XXE.
-Ataques Intrusivos: Pruebas de denegación de servicio (Slowloris) y fuerza bruta con bypass de tokens CSRF.
-Post-Explotación: Generador de Reverse Shells en PHP, ASP, JSP y Python para validar el acceso obtenido.
-Reportes: Generación automática de un resumen ejecutivo con los hallazgos principales.
-Requisitos e Instalación
-Para integrar esta herramienta en tu laboratorio de pruebas, sigue estos pasos:
+# Configuración de proxies (opcional)
+HTTP_PROXY=http://localhost:8080
+HTTPS_PROXY=http://localhost:8080
+
+# Configuración de tiempos de espera
+REQUEST_TIMEOUT=30
+CONNECTION_TIMEOUT=10
+
+# Configuración de usuario-agente
+USER_AGENT=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+
+# Credenciales para pruebas (usar con precaución)
+TEST_USERNAME=test
+TEST_PASSWORD=password123
+
+Permisos Necesarios:
+Linux:
+bash
+# Dar permisos de ejecución
+chmod +x M-dark29.py
+
+# Instalar como herramienta del sistema (opcional)
+sudo cp M-dark29.py /usr/local/bin/mdark
+sudo chmod +x /usr/local/bin/mdark
+
 
 ⚠️ Nota de Ética y Responsabilidad
 Este proyecto es un aporte con fines estrictamente educativos y profesionales. La automatización aumenta la velocidad, pero también la responsabilidad. Utiliza este script únicamente en entornos controlados o bajo autorización explícita del propietario del sistema.
