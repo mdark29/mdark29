@@ -1,12 +1,16 @@
 ![mdark](mdark1.png)
 
+1er paso crear entorno virtual
 python3 -m venv venv
-Linux/macOS
+
+2do paso activar el entorno
+En Linux/macOS
 source venv/bin/activate
 
-Windows
+En Windows
 venv\Scripts\activate
 
+3er paso instslar dependencias
 pip install --upgrade pip
 pip install -r requirements.txt
 
