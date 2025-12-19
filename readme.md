@@ -2,18 +2,19 @@
 
 python3 -m venv venv
 source venv/bin/activate  # Linux/macOS
-# o
 venv\Scripts\activate  # Windows
 
 pip install --upgrade pip
 pip install -r requirements.txt
 
 
-# Configuración general
+---
+Configuración general
 DEBUG=False
 LOG_LEVEL=INFO
 
-# Configuración de proxies (opcional)
+---
+Configuración de proxies (opcional)
 HTTP_PROXY=http://localhost:8080
 HTTPS_PROXY=http://localhost:8080
 
