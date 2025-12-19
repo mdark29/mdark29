@@ -19,7 +19,7 @@ Sigue estos pasos en orden descendente para configurar tu entorno:
 **1. Clonar el proyecto**
 Descarga los archivos necesarios a tu máquina local:
 ```bash
-git clone https://github.com/mdark29/mdark29.git```
+git clone https://github.com/mdark29/mdark29.git
 
 2. Acceder al directorio
 Entra en la carpeta para gestionar los archivos:
