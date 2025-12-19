@@ -27,18 +27,21 @@ Entra en la carpeta para gestionar los archivos:
 Bash
 
 cd mdark29
-3. Instalar dependencias
+
+**3. Instalar dependencias**
 Instala las librerías de Python requeridas para el funcionamiento:
 
 Bash
 
 pip install -r requeriments.txt
-4. Ejecutar la herramienta
+
+**4. Ejecutar la herramienta**
 Inicia el script principal para comenzar el análisis:
 
 Bash
 
 python mdark29.py
+
 Requisitos del Sistema
 Lenguaje: Python 3.10 o superior.
 
