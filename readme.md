@@ -1,8 +1,11 @@
 ![mdark](mdark1.png)
 
 python3 -m venv venv
-source venv/bin/activate  # Linux/macOS
-venv\Scripts\activate  # Windows
+Linux/macOS
+source venv/bin/activate
+
+Windows
+venv\Scripts\activate
 
 pip install --upgrade pip
 pip install -r requirements.txt
