@@ -3,7 +3,7 @@
 > Herramienta profesional para la auditoría de seguridad y análisis de vulnerabilidades.
 
 <p align="center">
-  <img src="mdark1.png" alt="Banner de Herramienta" width="750">
+  <img src="mdark.png" alt="Banner de Herramienta" width="750">
 </p>
 
 ---
