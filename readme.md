@@ -20,17 +20,20 @@ Sigue estos pasos en orden descendente para configurar tu entorno:
 Descarga los archivos necesarios a tu máquina local:
 ```bash
 git clone [https://github.com/mdark29/mdark29.git](https://github.com/mdark29/mdark29.git)
-2. Acceder al directorio Entra en la carpeta para gestionar los archivos:
+2. Acceder al directorio
+Entra en la carpeta para gestionar los archivos:
 
 Bash
 
 cd mdark29
-3. Instalar dependencias Instala las librerías de Python requeridas para el funcionamiento:
+3. Instalar dependencias
+Instala las librerías de Python requeridas para el funcionamiento:
 
 Bash
 
 pip install -r requeriments.txt
-4. Ejecutar la herramienta Inicia el script principal para comenzar el análisis:
+4. Ejecutar la herramienta
+Inicia el script principal para comenzar el análisis:
 
 Bash
 
