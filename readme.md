@@ -16,12 +16,12 @@ Esta herramienta ha sido diseñada para optimizar los procesos de **Pentesting**
 ###  Guía de Instalación y Uso
 Sigue estos pasos en orden descendente para configurar tu entorno:
 
-**1. Clonar el proyecto**
+**1. Clonar el proyecto**  
 Descarga los archivos necesarios a tu máquina local:
 ```bash
 git clone https://github.com/mdark29/mdark29.git
 
-2. Acceder al directorio
+**2. Acceder al directorio**
 Entra en la carpeta para gestionar los archivos:
 
 Bash
