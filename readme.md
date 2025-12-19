@@ -46,7 +46,9 @@ Sistemas: Compatible con Linux (Kali, Parrot, Ubuntu) y Windows.
 Archivos: Requiere el archivo requeriments.txt en la raíz.
 
 ⚖️ Aviso de Uso Ético
-[!IMPORTANT] El uso de esta herramienta en objetivos sin autorización previa es ilegal. El desarrollador no se hace responsable por el mal uso de este software. Utilízalo siempre en entornos controlados y autorizados.
+[!IMPORTANT] El uso de esta herramienta en objetivos sin autorización previa es ilegal.
+El desarrollador no se hace responsable por el mal uso de este software.
+Utilízalo siempre en entornos controlados y autorizados.
 
 
 
