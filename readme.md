@@ -1,29 +1,24 @@
 # 🛡️ Herramienta Avanzada de Pentesting
+> **Auditoría de seguridad y análisis de vulnerabilidades automatizado.**
 
 <p align="center">
-  <img src="mdark1.png" alt="Banner de Herramienta" width="700">
+  <img src="mdark1.png" alt="Banner de Herramienta" width="750" style="border-radius: 10px;">
 </p>
 
 ---
 
-### 📖 Descripción
-Esta es una herramienta potente diseñada para auditorías de seguridad y pruebas de penetración. Permite automatizar procesos de análisis de vulnerabilidades de forma eficiente y clara.
+### 📝 Descripción General
+Esta herramienta ha sido desarrollada para optimizar los procesos de **Pentesting**, permitiendo a los profesionales de ciberseguridad identificar puntos débiles de forma rápida y estructurada. 
+
+* 🔍 **Escaneo Eficiente:** Algoritmos optimizados para análisis profundo.
+* 🛠️ **Fácil Configuración:** Proceso de instalación simplificado en un solo bloque.
+* 📊 **Reportes Claros:** Salida de datos organizada para su interpretación.
 
 ---
 
-### 🛠️ Guía de Instalación y Uso
-
-**Sigue estos pasos para configurar y ejecutar la herramienta en un solo proceso:**
+### 🚀 Instalación y Ejecución Rápida
+Ejecuta el siguiente bloque de comandos en tu terminal para configurar el entorno y lanzar la herramienta de inmediato:
 
 ```bash
-# 1. Clonar el proyecto
-git clone [https://github.com/mdark29/mdark29.git](https://github.com/mdark29/mdark29.git)
-
-# 2. Acceder al directorio
-cd mdark29
-
-# 3. Instalar las dependencias
-pip install -r requeriments.txt
-
-# 4. Ejecutar la herramienta
-python mdark29.py
+# Clonar, instalar dependencias y ejecutar
+git clone [https://github.com/mdark29/mdark29.git](https://github.com/mdark29/mdark29.git) && cd mdark29 && pip install -r requeriments.txt && python mdark29.py
