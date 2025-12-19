@@ -1,18 +1,18 @@
 <p align="center"> <img src="mdark1.png" alt="Logo Pentesting" width="600"> </p>
 
-1er paso crear entorno virtual
-python3 -m venv venv
+1er paso crear entorno virtual  
+python3 -m venv venv  
 
-2do paso activar el entorno
-En Linux/macOS
-source venv/bin/activate
+2do paso activar el entorno  
+En Linux/macOS  
+source venv/bin/activate  
+  
+En Windows  
+venv\Scripts\activate  
 
-En Windows
-venv\Scripts\activate
-
-3er paso instslar dependencias
-pip install --upgrade pip
-pip install -r requirements.txt
+3er paso instslar dependencias  
+pip install --upgrade pip  
+pip install -r requirements.txt  
 
 
 ---
