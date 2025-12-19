@@ -1,4 +1,4 @@
-![mdark](mdark1.png)
+<p align="center"> <img src="mdark1.png" alt="Logo Pentesting" width="600"> </p>
 
 1er paso crear entorno virtual
 python3 -m venv venv
