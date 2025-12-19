@@ -13,19 +13,17 @@ Esta es una herramienta potente diseñada para auditorías de seguridad y prueba
 
 ### 🛠️ Guía de Instalación y Uso
 
-**Paso 1: Clonar el proyecto** Primero, descarga los archivos del repositorio a tu máquina local con el siguiente comando:
+**Sigue estos pasos para configurar y ejecutar la herramienta en un solo proceso:**
+
 ```bash
+# 1. Clonar el proyecto
 git clone [https://github.com/mdark29/mdark29.git](https://github.com/mdark29/mdark29.git)
+
+# 2. Acceder al directorio
 cd mdark29
 
-Paso 2: Instalar las dependencias Es necesario instalar las librerías de Python requeridas para que la herramienta funcione correctamente:
-
-Bash
-
+# 3. Instalar las dependencias
 pip install -r requeriments.txt
 
-Paso 3: Ejecutar la herramienta Una vez instaladas las dependencias, ya puedes iniciar el script principal:
-
-Bash
-
+# 4. Ejecutar la herramienta
 python mdark29.py
